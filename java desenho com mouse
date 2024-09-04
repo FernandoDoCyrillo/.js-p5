@@ -1,0 +1,18 @@
+function setup() {
+  createCanvas(600, 400);
+  background("black");
+}
+
+function draw() {
+if (mouseIsPressed)
+stroke ("white");// cor da linha 
+
+rect (173,173,70,50);// coordenadas quadrado
+rect (346,173,70,50);
+rect (230,250,150,30);
+
+rect (mouseX,mouseY,100,005);
+stroke ("black");// cor da linha 
+
+rect (mouseX,mouseY,500,70);
+}
